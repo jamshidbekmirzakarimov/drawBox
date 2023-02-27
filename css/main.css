@@ -23,7 +23,7 @@ body {
   height: 100%;
   margin: 0;
   font-family: "Arial", sans-serif;
-  background-image: linear-gradient(to left, #ff0000 50%, #0000ff 50%);
+  background-image: linear-gradient(60deg, darkslategray 50%, transparent 50%);
 }
 
 img {
@@ -52,4 +52,11 @@ img {
   padding-left: 20px;
 }
 
-git remote add origin git@github.com:jamshidbekmirzakarimov/drawBox.git
+
+
+.box-draw{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 150px;
+}
